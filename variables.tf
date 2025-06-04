@@ -9,11 +9,16 @@ variable "description" {
 }
 
 variable "rotation" {
-    type = boolean
+    type = bool
     default = true
 }
 
 variable "deletion_window" {
     type = string
     default = "10"
+}
+
+variable "key_alias" {
+   type = string
+   default = "alias/ebs-kms-alias"
 }
