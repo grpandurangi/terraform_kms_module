@@ -21,5 +21,4 @@ variable "deletion_window" {
 
 variable "key_alias" {
    type = string
-   default = "alias/ebs-kms-alias"
 }
